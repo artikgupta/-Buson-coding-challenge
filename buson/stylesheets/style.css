@@ -158,6 +158,12 @@ table {
   padding: 100px 0;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 40px 0; */
+}
+
 /* header */
 
 .top-nav {
@@ -271,7 +277,6 @@ table {
 
 .section-2 {
   background-color: #f6f9fe;
-  /* padding: 70px; */
 }
 
 .img-box {
@@ -296,6 +301,7 @@ table {
 
 .img-box p {
   font-size: 15px;
+  line-height: 1.3;
 }
 
 .text-box {
@@ -357,7 +363,7 @@ table {
 
 /* section 4 */
 
-.section-4 h1 {
+.section-4 h2 {
   font-size: 40px;
   text-align: center;
   font-weight: bold;
@@ -366,8 +372,8 @@ table {
 
 .service-1 {
   background-color: #f6f9fe;
-  flex: 0 1 30%;
-  padding: 30px 20px;
+  flex: 0 1 31%;
+  padding: 40px 25px;
 }
 
 .service-1 h2 {
@@ -379,7 +385,7 @@ table {
 
 .service-1 p {
   text-align: center;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .service-1 a {
@@ -463,7 +469,6 @@ table {
 
 .justify {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -476,6 +481,10 @@ table {
 }
 
 /* .section-7 */
+
+.section-7 {
+  padding-top: 0;
+}
 
 .section-7 h2 {
   text-align: center;
@@ -575,7 +584,7 @@ footer {
 }
 
 .col-1 {
-  width: 30%;
+  flex: 0 1 30%;
 }
 
 .col-1 p {
@@ -585,7 +594,12 @@ footer {
 
 .col {
   padding-bottom: 40px;
-  flex: 0 1 20%;
+  flex: 0 1 25%;
+  text-align: left;
+}
+
+.col-2 {
+  flex: 0 1 15%;
 }
 
 .col h3 {
@@ -597,6 +611,8 @@ footer {
 .col p {
   padding: 5px 0;
   color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .col-4 {
@@ -652,13 +668,12 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 100px;
 }
 
 .case-1 {
-  width: 300px;
+  flex: 0 1 30%;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .case-1 img {
@@ -668,8 +683,7 @@ footer {
 .case-text {
   position: absolute;
   background-color: white;
-  bottom: 3px;
-  height: 100px;
+  bottom: 0;
   width: 80%;
   padding: 20px;
 }
@@ -696,20 +710,23 @@ footer {
   width: 60%;
 }
 
-.row-1 img {
+.blog-img {
+  font-size: 0;
+}
+
+.blog-img img {
   width: 100%;
 }
 
 .row-1 {
   margin-bottom: 40px;
-  width: 100%;
   position: relative;
 }
 
 .date-box {
   position: absolute;
-  bottom: 35%;
-  left: 5%;
+  bottom: 160px;
+  left: 25px;
   height: 65px;
   width: 60px;
   background-color: #fd656b;
@@ -720,11 +737,6 @@ footer {
   justify-content: center;
   border-radius: 5px;
   color: white;
-}
-
-.row-1 {
-  display: flex;
-  flex-direction: column;
 }
 
 .blog-text {
@@ -893,8 +905,9 @@ footer {
   height: 200px;
   background-size: cover;
 }
+
 .map {
-  margin: 60px 0;
+  padding-bottom: 0;
 }
 
 .map img {
@@ -903,7 +916,7 @@ footer {
 }
 
 .contact-section-3 {
-  margin-bottom: 60px;
+  padding-top: 0;
 }
 
 textarea {
